@@ -1,0 +1,163 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul{
+    background-color:rgb(242, 241, 248);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    padding: 10px;
+    width: 150px;
+
+}
+nav li:hover{
+    background-color:rgb(63, 161, 226) ;
+
+}
+img{
+    width: 750px;
+    height:500px;
+
+}
+
+.Todo{
+    display: flex;
+    background-color: green;
+   
+    
+    
+    
+   
+}
+
+.Presentacion{
+    padding-left: 60px;
+    padding-right: 60px;
+
+   
+    
+
+}
+.Imagen{
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
+
+}
+
+.Infomacion1{
+    
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 227, 198);
+
+}
+.Infomacion2{
+    
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 227, 198);
+
+
+}
+.Infomacion3{
+    
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 227, 198);
+
+
+}
+
+.Barra{
+    width: 600px;
+    height: 25px;
+    background: rgba(225,225,225,1);
+    border-radius: 10px;
+    box-shadow:20px 25px 45px rgba(0,0,0,0,1);
+    border-right: 2px solid rgba(225,225,225,1);
+    border-bottom: 2px solid rgba(225,225,225,1);
+    
+
+}
+
+.progreso{
+    width: var(--w);
+    height: 100%;
+    background: rgba(36, 97, 230, 0.5);
+    
+    border-radius: 10px;
+    animation:Aumentar 5s ease ;
+
+}
+
+@keyframes Aumentar {
+    0%{width: 0%;}
+    100%{width: var(--w);}
+    
+}
+.Lenguajes:hover .progreso{
+    animation:Aumentar 5s ease ;
+}
+
+.Texto2{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+}
+
+
+
+.FotoS {
+    width: 750px;
+    height:500px;
+
+}
+
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+#Contactar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #dbe2e2d8;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-color: #5a5d5ed8;
+}
+#telefono{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #080303;
+}
+
